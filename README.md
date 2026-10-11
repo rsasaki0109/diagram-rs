@@ -97,6 +97,7 @@ callers. Run `cargo doc --workspace --no-deps --locked` for API documentation.
 cargo install wasm-bindgen-cli --version 0.2.105 --locked
 scripts/build-wasm.sh
 # Generates crates/diagram-wasm/pkg, including package.json, JS, WASM and .d.ts.
+# Optional smaller build: scripts/build-wasm.sh --latin-only (pkg-latin/)
 ```
 
 Install the generated local package in a browser application:
@@ -124,6 +125,11 @@ package target or bundler-specific integration is claimed. See
 [the WASM package README](crates/diagram-wasm/README.md). `examples/browser.html`
 is an interactive example after the package is built and the repository is served
 with a local HTTP server.
+
+The optional Latin-only WASM is about **1.88 MB** (0.80 MB gzip), compared with
+11.47 MB for the default Japanese build in the current local measurements.
+It uses the same six-family API; Japanese requires `renderWithFont` and a separately
+loaded font. See [measurements](benchmarks/README.md) and [release guide](docs/releases.md).
 
 ## Supported flowchart syntax
 

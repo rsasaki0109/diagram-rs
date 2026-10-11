@@ -1,0 +1,4 @@
+# Keep fixture/snapshot/license bytes identical on every supported platform.
+* text=auto eol=lf
+*.png binary
+*.ttf binary

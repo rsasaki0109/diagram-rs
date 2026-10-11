@@ -31,6 +31,8 @@ npx playwright install --with-deps chromium
 npm run test:browser
 npm run test:reference
 npm run test:bundle
+scripts/build-wasm.sh --latin-only
+npm run test:latin
 ```
 
 Set `DIAGRAM_CHROMIUM=/path/to/chromium` to use an existing browser. Node/browser

@@ -61,8 +61,11 @@ JavaScript, declarations, WASM, README and both font license notices.
 The complete, unmodified Japanese font substantially increases artifact size;
 A separate Latin-only native build is 2405072 bytes (1114580
 gzip bytes). Its ASCII fixture matches the default build; Japanese returns an
-error unless a custom font is supplied. Its timings/RSS and smaller WASM builds
-were not measured. WASM numbers are after
+error unless a custom font is supplied. Its timings/RSS were not measured.
+The separate Latin-only WASM is 1,875,826 bytes (798,438 gzip bytes), with six-family
+SVG parity and Japanese/custom-font behavior verified in a real browser. It omits
+the bundled Japanese font; an application loading its own font must account for
+that additional download. WASM numbers are after
 wasm-bindgen 0.2.105, without wasm-opt; gzip uses Python's default level and zero
 timestamp. The standalone native binary bundles both fonts and still uses system
 libc. Include the project/dependency/font notices when redistributing it.
@@ -79,7 +82,9 @@ python3 benchmarks/run.py
 The separate smaller native build can be reproduced with
 `cargo build --release --locked -p diagram-cli --no-default-features
 --target-dir /tmp/diagram-rs-latin-target`; its size is recorded under
-`additional_builds` in the reviewed JSON. The script below does not measure it.
+`additional_builds` in the reviewed JSON. Reproduce the smaller browser build
+with `scripts/build-wasm.sh --latin-only` and `npm run test:latin`. The benchmark
+script does not automatically build or measure either smaller variant.
 
 The script builds the release CLI and timing harness, measures only after those
 builds finish, validates exit statuses, records fresh-process RSS, and writes raw

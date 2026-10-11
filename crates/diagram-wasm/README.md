@@ -22,3 +22,10 @@ licenses ship in the package (`FONT-LICENSE.txt`, `NOTO-FONT-LICENSE.txt`).
 The six supported diagram families use the same API; a custom font replaces
 the bundled collection.
 See the repository README for supported syntax and limits.
+
+
+For a smaller package, run `scripts/build-wasm.sh --latin-only`. The separate
+`crates/diagram-wasm/pkg-latin` package omits Noto Sans JP font bytes and preserves
+the same six-family API. Use `renderWithFont` for Japanese; the application is
+responsible for loading and licensing its external font. `npm run test:latin`
+verifies browser parity, missing-glyph errors and custom Japanese font rendering.

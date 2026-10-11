@@ -2,8 +2,12 @@
 
 Version 0.1.0 is a local development version. No registry package or GitHub release
 has been published. The Linux GNU native binary and browser ESM package have been
-built and exercised locally. macOS/Windows jobs are configured in CI but their
-results are unverified; do not describe those platforms as release-tested yet.
+built and exercised locally. Linux, macOS and Windows native builds/tests pass
+in [CI](https://github.com/rsasaki0109/diagram-rs/actions/runs/38113460459).
+Native prebuilt archives are still prepared only for Linux GNU; source installation
+is the tested workflow for macOS/Windows. Standard/Latin-only browser ESM,
+TypeScript/esbuild, 149 upstream structural comparisons and artifact verification
+also pass in the linked run.
 
 ## Build and install locally
 
@@ -20,6 +24,11 @@ validated by `npm run test:bundle`. Other bundlers and Node.js rendering are not
 claimed. To install the local tarball in a separate application, use
 `npm install /absolute/path/to/dist/diagram-rs-0.1.0.tgz` after preparing it below.
 
+A smaller browser build is available with `scripts/build-wasm.sh --latin-only`.
+Use `crates/diagram-wasm/pkg-latin` and serve its own WASM asset beside the module.
+Japanese requires an explicitly supplied font. This variant is tested separately
+with `npm run test:latin`; the release script packages the default Japanese build.
+
 ## Prepare reviewable artifacts
 
 ```sh
@@ -31,13 +40,17 @@ npm ci --ignore-scripts
 npm run test:browser
 npm run test:reference
 npm run test:bundle
+scripts/build-wasm.sh --latin-only
+npm run test:latin
 scripts/release-local.sh
 ```
 
 The release script builds binaries and bindings, creates a source archive, a
 Linux GNU native archive and a local npm tarball, then verifies the CLI extracted
 from the native archive against every fixture. It checks the npm entrypoints and
-both font licenses, and writes `dist/manifest.json` and `SHA256SUMS`. These artifacts
+both font licenses, and writes `dist/manifest.json` and `SHA256SUMS`. The manifest
+records the Git commit and whether the source checkout has uncommitted changes;
+these fields are null when building outside a Git checkout. These artifacts
 are unsigned and unpublished. Native/source tar metadata and gzip timestamps are
 normalized; compiler bit-for-bit reproducibility across machines is not claimed.
 The native executable uses the build host's system libc; it is not a static musl
