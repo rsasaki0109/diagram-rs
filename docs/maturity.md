@@ -74,7 +74,10 @@ network policy; no remote CI result or release publication is claimed.
 72%: all local checks above passed, including real browser bundling and extracted
 release-binary verification against 15 fixtures. Current native/WASM sizes and
 flowchart timings were remeasured with Japanese fallback enabled. Linux/macOS/
-Windows native jobs are configured, but only local Linux is verified. GitHub API
-access remains denied by the current environment policy; a configuration draft
-adding api.github.com is saved and requires user publication. This is an external
-block to remote CI verification. The 80% milestone is **not achieved**.
+Windows native jobs are configured, but only local Linux is verified. After the
+environment configuration was published, GitHub API access and the initial source
+push succeeded. The [first remote CI run](https://github.com/rsasaki0109/diagram-rs/actions/runs/38112746456)
+is queued; results are not yet verified. A source-archive build in a separate
+directory also produces matching Japanese SVG, but native binary hashes differ,
+so bit-for-bit build reproducibility is not claimed. The 80% milestone is
+**not achieved**.

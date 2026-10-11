@@ -37,7 +37,9 @@ scripts/release-local.sh
 The release script builds binaries and bindings, creates a source archive, a
 Linux GNU native archive and a local npm tarball, then verifies the CLI extracted
 from the native archive against every fixture. It checks the npm entrypoints and
-both font licenses, and writes `dist/manifest.json` and `SHA256SUMS`. These artifacts
+both font licenses, and writes `dist/manifest.json` and `SHA256SUMS`. The manifest
+records the Git commit and whether the source checkout has uncommitted changes;
+these fields are null when building outside a Git checkout. These artifacts
 are unsigned and unpublished. Native/source tar metadata and gzip timestamps are
 normalized; compiler bit-for-bit reproducibility across machines is not claimed.
 The native executable uses the build host's system libc; it is not a static musl

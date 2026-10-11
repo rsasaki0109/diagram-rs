@@ -66,8 +66,16 @@ with tempfile.TemporaryDirectory(prefix='diagram-rs-release-') as temp:
         assert svg == (root / f'tests/snapshots/{name}.svg').read_bytes(), f'archive CLI parity: {name}'
 files = [native, source, npm]
 records = {p.name: {'bytes': p.stat().st_size, 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()} for p in files}
+try:
+    source_commit = subprocess.check_output(['git', 'rev-parse', '--verify', 'HEAD'], cwd=root,
+                                            stderr=subprocess.DEVNULL, text=True).strip()
+    source_dirty = bool(subprocess.check_output(['git', 'status', '--porcelain'], cwd=root, text=True).strip())
+except (subprocess.CalledProcessError, FileNotFoundError):
+    # Building from the source archive is supported without a Git checkout.
+    source_commit = source_dirty = None
 (out / 'SHA256SUMS').write_text(''.join(f"{v['sha256']}  {k}\n" for k, v in sorted(records.items())))
 (out / 'manifest.json').write_text(json.dumps({'version': version, 'host': host, 'platform': platform.platform(),
+    'source_commit': source_commit, 'source_dirty': source_dirty,
     'verification': {'packaged_cli_fixture_parity': len(fixture_names), 'npm_required_files': sorted(required)},
-    'artifacts': records, 'publication': 'local-only, unsigned, unpublished'}, indent=2) + '\n')
+    'artifacts': records, 'publication': 'unsigned; no registry or GitHub release publication'}, indent=2) + '\n')
 print(f'Local archives verified: {len(fixture_names)} packaged CLI parity cases and npm license/entrypoint inventory')
