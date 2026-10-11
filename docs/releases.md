@@ -2,8 +2,12 @@
 
 Version 0.1.0 is a local development version. No registry package or GitHub release
 has been published. The Linux GNU native binary and browser ESM package have been
-built and exercised locally. macOS/Windows jobs are configured in CI but their
-results are unverified; do not describe those platforms as release-tested yet.
+built and exercised locally. Linux, macOS and Windows native builds/tests pass
+in [CI](https://github.com/rsasaki0109/diagram-rs/actions/runs/38113460459).
+Native prebuilt archives are still prepared only for Linux GNU; source installation
+is the tested workflow for macOS/Windows. Standard/Latin-only browser ESM,
+TypeScript/esbuild, 149 upstream structural comparisons and artifact verification
+also pass in the linked run.
 
 ## Build and install locally
 

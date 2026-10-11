@@ -1,6 +1,6 @@
 # Maturity assessment and target
 
-Last assessed: 2026-10-11. Current score: **72%**. Accepted first target: **80%**.
+Last assessed: 2026-10-11. Current score: **80%**. Accepted first target: **80%**.
 
 This is a project planning score, not a measured percentage of Mermaid syntax,
 an upstream rating, or proof of production reliability. Scores are provisional
@@ -30,12 +30,12 @@ Category scores are estimates; the resulting total is a planning indicator.
 | Category | Weight | Current category score | Evidence and remaining work |
 | --- | ---: | ---: | --- |
 | Features and compatibility | 40% | 70% | Practical subsets of all six families; Japanese, nested groups and distinct parallel routes; 149 upstream structural cases agree. Composite states, working-day calendars and broader syntax remain absent |
-| Rendering quality and reliability | 25% | 75% | 67 native tests, SVG/PNG and geometry regressions, 16 native/WASM fixtures, 6,000 parser and 720 renderer mutation inputs pass locally. Dense routing is heuristic; sustained fuzzing and release history remain absent |
-| APIs and integration | 15% | 80% | Rust, CLI and browser WASM; strict TypeScript and real esbuild bundle verified. Remote macOS/Windows results and long-term API stability remain unverified |
-| Distribution and operations | 10% | 50% | Versioned native/source/npm archives, extracted CLI checks, SHA256 inventory and licenses verified. Packages unpublished; remote CI unverified |
-| Documentation and maintenance | 10% | 85% | Family syntax, architecture, examples, current measurements, integration and release guides exist. Real maintenance/support history remains absent |
+| Rendering quality and reliability | 25% | 82% | 67 native tests, SVG/PNG and geometry regressions, native/WASM parity and mutation campaigns pass; revised remote Linux/macOS/Windows and browser jobs all pass. Sustained coverage-guided fuzzing and release history remain absent |
+| APIs and integration | 15% | 90% | Rust/CLI verified on Linux/macOS/Windows; standard/Latin-only browser WASM, TypeScript and esbuild pass local and remote checks. Long-term API stability and other bundlers remain unverified |
+| Distribution and operations | 10% | 85% | Versioned native/source/npm archives, clean source revision, extracted CLI parity, SHA256 inventory and licenses verified; remote CI builds downloadable artifacts. Registry/GitHub releases remain unpublished; prebuilt native archives cover Linux GNU only |
+| Documentation and maintenance | 10% | 90% | Family syntax, architecture, examples, measured sizes/timings, tested installation/integration and release guides include actual CI evidence. Real maintenance/support history remains absent |
 
-Calculation: `40*70/100 + 25*75/100 + 15*80/100 + 10*50/100 + 10*85/100 = 72.25 ≈ 72`.
+Calculation: `40*70/100 + 25*82/100 + 15*90/100 + 10*85/100 + 10*90/100 = 79.5 ≈ 80`.
 Passing a few more tests does not by itself justify a large maturity increase.
 
 ## Accepted 80% milestone
@@ -60,7 +60,7 @@ diagrams; **65%** for practical support of the six families with regression
 coverage; **80%** for validated integration, distribution and release readiness.
 These are review checkpoints, not automatic scores for completing a checklist.
 
-Future update footer: `成熟度：72%／目標80%（主要6種・暫定評価）`.
+Future update footer: `成熟度：80%／目標80%（主要6種・暫定評価）`.
 
 Assessment history: 30% before sequence support; 34% after verified sequence
 parsing, specialized geometry, CLI/WASM dispatch, visual regressions and upstream
@@ -81,3 +81,24 @@ is queued; results are not yet verified. A source-archive build in a separate
 directory also produces matching Japanese SVG, but native binary hashes differ,
 so bit-for-bit build reproducibility is not claimed. The 80% milestone is
 **not achieved**.
+
+
+76%: initial remote Linux, macOS and browser jobs passed; Windows failed in the
+native tests. A Windows-style CRLF checkout reproduces the SVG baseline failure;
+with the new LF attributes an isolated checkout passes the same SVG/PNG test.
+The [revised PR CI](https://github.com/rsasaki0109/diagram-rs/actions/runs/38113460459)
+is still pending, so Windows is not yet counted as verified. The Latin-only WASM
+variant passes six-family browser parity and external Japanese-font rendering.
+The source-archive rebuild matches all 16 SVG cases, and release manifests record
+a clean source revision. The 80% milestone remains **not achieved**.
+
+
+80%: the [revised CI run](https://github.com/rsasaki0109/diagram-rs/actions/runs/38113460459)
+for engine/release commit `ea93a13082ce450b812fdcb77787c7d34b0c758d` completed
+successfully: native Linux, macOS and Windows tests/builds/rustdoc plus browser
+standard/Latin-only WASM, 149 Mermaid comparisons, TypeScript/esbuild and release
+archive verification. The Windows newline regression is fixed by Git attributes.
+This meets the accepted practical six-family milestone; it is not full Mermaid
+compatibility or proof of production reliability. The later assessment update is
+documentation only. Changes are reviewable in [PR #1](https://github.com/rsasaki0109/diagram-rs/pull/1);
+no merge, registry publication or GitHub release publication is claimed.
