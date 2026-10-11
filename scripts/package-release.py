@@ -30,7 +30,7 @@ archive(native, {f'{prefix}/{name}': path for name, path in {'diagram-rs': binar
 source_files = {}
 for path in root.rglob('*'):
     rel = path.relative_to(root)
-    if any(part in {'.git', 'node_modules', 'target', 'dist', 'pkg', '__pycache__'} for part in rel.parts):
+    if any(part in {'.git', 'node_modules', 'target', 'dist', 'pkg', 'pkg-latin', '__pycache__'} for part in rel.parts):
         continue
     if rel.parts[:2] == ('benchmarks', 'results') or not path.is_file():
         continue

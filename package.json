@@ -5,7 +5,8 @@
   "scripts": {
     "test:browser": "node scripts/browser-test.mjs",
     "test:reference": "node scripts/mermaid-reference.mjs",
-    "test:bundle": "node scripts/bundle-test.mjs"
+    "test:bundle": "node scripts/bundle-test.mjs",
+    "test:latin": "node scripts/latin-browser-test.mjs"
   },
   "devDependencies": {
     "esbuild": "0.25.11",

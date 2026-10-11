@@ -39,6 +39,11 @@
       "gzip_bytes": 1114580,
       "features": "--no-default-features",
       "verification": "branch SVG parity, Japanese rejected by default, custom Noto font accepted"
+    },
+    "latin_only_wasm": {
+      "bytes": 1875826,
+      "gzip_bytes": 798438,
+      "verification": "six-family browser SVG parity, nested/parallel routing, Japanese rejection and custom-font rendering"
     }
   }
 }

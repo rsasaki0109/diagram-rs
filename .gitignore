@@ -1,5 +1,6 @@
 /target/
 /crates/diagram-wasm/pkg/
+/crates/diagram-wasm/pkg-latin/
 /benchmarks/results/
 *.svg.tmp
 /node_modules/

@@ -20,6 +20,11 @@ validated by `npm run test:bundle`. Other bundlers and Node.js rendering are not
 claimed. To install the local tarball in a separate application, use
 `npm install /absolute/path/to/dist/diagram-rs-0.1.0.tgz` after preparing it below.
 
+A smaller browser build is available with `scripts/build-wasm.sh --latin-only`.
+Use `crates/diagram-wasm/pkg-latin` and serve its own WASM asset beside the module.
+Japanese requires an explicitly supplied font. This variant is tested separately
+with `npm run test:latin`; the release script packages the default Japanese build.
+
 ## Prepare reviewable artifacts
 
 ```sh
@@ -31,6 +36,8 @@ npm ci --ignore-scripts
 npm run test:browser
 npm run test:reference
 npm run test:bundle
+scripts/build-wasm.sh --latin-only
+npm run test:latin
 scripts/release-local.sh
 ```
 
