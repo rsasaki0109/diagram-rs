@@ -1,0 +1,20 @@
+sequenceDiagram
+    autonumber
+    actor U as User
+    participant A as API
+    participant D as Database
+    U->>+A: Create order
+    Note over A,D: Transaction boundary
+    alt Stock available
+        A->>+D: Reserve stock
+        D-->>-A: Reserved
+        A-->>U: Confirmed
+    else Sold out
+        A-->>U: Rejected
+    end
+    loop Retry delivery
+        A->>A: Schedule notification
+        A->>U: Order update
+    end
+    deactivate A
+    Note right of D: Durable records

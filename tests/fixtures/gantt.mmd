@@ -1,0 +1,12 @@
+gantt
+    title Release plan
+    dateFormat YYYY-MM-DD
+    todayMarker off
+    section Engine
+    Parser :done, parser, 2026-10-01, 4d
+    Layout :active, layout, after parser, 5d
+    Renderer :crit, renderer, after layout, 3d
+    section Verification
+    Regression tests :tests, after parser, 6d
+    Browser integration :browser, after renderer tests, 4d
+    Release :milestone, release, after browser, 0d

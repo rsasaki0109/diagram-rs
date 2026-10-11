@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="997.274" height="901.300" viewBox="0 0 997.274 901.300" role="img" aria-label="Flowchart">
+<title>Flowchart rendered by diagram-rs</title>
+<metadata>Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: DejaVu fonts
+Upstream-Author: Stepan Roh &lt;src@users.sourceforge.net&gt; (original author),
+                  see /usr/share/doc/fonts-dejavu-core/AUTHORS for full list
+Source: https://dejavu-fonts.github.io/
+
+Files: *
+Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. 
+ Bitstream Vera is a trademark of Bitstream, Inc.
+ DejaVu changes are in public domain.
+License: bitstream-vera
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of the fonts accompanying this license (&quot;Fonts&quot;) and associated
+ documentation files (the &quot;Font Software&quot;), to reproduce and distribute the
+ Font Software, including without limitation the rights to use, copy, merge,
+ publish, distribute, and/or sell copies of the Font Software, and to permit
+ persons to whom the Font Software is furnished to do so, subject to the
+ following conditions:
+ .
+ The above copyright and trademark notices and this permission notice shall
+ be included in all copies of one or more of the Font Software typefaces.
+ .
+ The Font Software may be modified, altered, or added to, and in particular
+ the designs of glyphs or characters in the Fonts may be modified and
+ additional glyphs or characters may be added to the Fonts, only if the fonts
+ are renamed to names not containing either the words &quot;Bitstream&quot; or the word
+ &quot;Vera&quot;.
+ .
+ This License becomes null and void to the extent applicable to Fonts or Font
+ Software that has been modified and is distributed under the &quot;Bitstream
+ Vera&quot; names.
+ .
+ The Font Software may be sold as part of a larger software package but no
+ copy of one or more of the Font Software typefaces may be sold by itself.
+ .
+ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,
+ TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME
+ FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING
+ ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+ THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE
+ FONT SOFTWARE.
+ .
+ Except as contained in this notice, the names of Gnome, the Gnome
+ Foundation, and Bitstream Inc., shall not be used in advertising or
+ otherwise to promote the sale, use or other dealings in this Font Software
+ without prior written authorization from the Gnome Foundation or Bitstream
+ Inc., respectively. For further information, contact: fonts at gnome dot
+ org.
+
+</metadata>
+<defs>
+<path id="glyph-60521f5b4f56f404-3" d=""/>
+<path id="glyph-60521f5b4f56f404-37" d="M403.0 713.0 L403.0 166.0 L727.0 166.0 Q890.0 166.0 968.5 233.5 Q1047.0 301.0 1047.0 440.0 Q1047.0 580.0 968.5 646.5 Q890.0 713.0 727.0 713.0 L403.0 713.0 Z M403.0 1327.0 L403.0 877.0 L702.0 877.0 Q850.0 877.0 922.5 932.5 Q995.0 988.0 995.0 1102.0 Q995.0 1215.0 922.5 1271.0 Q850.0 1327.0 702.0 1327.0 L403.0 1327.0 Z M201.0 1493.0 L717.0 1493.0 Q948.0 1493.0 1073.0 1397.0 Q1198.0 1301.0 1198.0 1124.0 Q1198.0 987.0 1134.0 906.0 Q1070.0 825.0 946.0 805.0 Q1095.0 773.0 1177.5 671.5 Q1260.0 570.0 1260.0 418.0 Q1260.0 218.0 1124.0 109.0 Q988.0 0.0 737.0 0.0 L201.0 0.0 L201.0 1493.0 Z "/>
+<path id="glyph-60521f5b4f56f404-38" d="M1319.0 1378.0 L1319.0 1165.0 Q1217.0 1260.0 1101.5 1307.0 Q986.0 1354.0 856.0 1354.0 Q600.0 1354.0 464.0 1197.5 Q328.0 1041.0 328.0 745.0 Q328.0 450.0 464.0 293.5 Q600.0 137.0 856.0 137.0 Q986.0 137.0 1101.5 184.0 Q1217.0 231.0 1319.0 326.0 L1319.0 115.0 Q1213.0 43.0 1094.5 7.0 Q976.0 -29.0 844.0 -29.0 Q505.0 -29.0 310.0 178.5 Q115.0 386.0 115.0 745.0 Q115.0 1105.0 310.0 1312.5 Q505.0 1520.0 844.0 1520.0 Q978.0 1520.0 1096.5 1484.5 Q1215.0 1449.0 1319.0 1378.0 Z "/>
+<path id="glyph-60521f5b4f56f404-39" d="M403.0 1327.0 L403.0 166.0 L647.0 166.0 Q956.0 166.0 1099.5 306.0 Q1243.0 446.0 1243.0 748.0 Q1243.0 1048.0 1099.5 1187.5 Q956.0 1327.0 647.0 1327.0 L403.0 1327.0 Z M201.0 1493.0 L616.0 1493.0 Q1050.0 1493.0 1253.0 1312.5 Q1456.0 1132.0 1456.0 748.0 Q1456.0 362.0 1252.0 181.0 Q1048.0 0.0 616.0 0.0 L201.0 0.0 L201.0 1493.0 Z "/>
+<path id="glyph-60521f5b4f56f404-41" d="M201.0 1493.0 L1059.0 1493.0 L1059.0 1323.0 L403.0 1323.0 L403.0 883.0 L995.0 883.0 L995.0 713.0 L403.0 713.0 L403.0 0.0 L201.0 0.0 L201.0 1493.0 Z "/>
+<path id="glyph-60521f5b4f56f404-50" d="M807.0 1356.0 Q587.0 1356.0 457.5 1192.0 Q328.0 1028.0 328.0 745.0 Q328.0 463.0 457.5 299.0 Q587.0 135.0 807.0 135.0 Q1027.0 135.0 1155.5 299.0 Q1284.0 463.0 1284.0 745.0 Q1284.0 1028.0 1155.5 1192.0 Q1027.0 1356.0 807.0 1356.0 Z M807.0 1520.0 Q1121.0 1520.0 1309.0 1309.5 Q1497.0 1099.0 1497.0 745.0 Q1497.0 392.0 1309.0 181.5 Q1121.0 -29.0 807.0 -29.0 Q492.0 -29.0 303.5 181.0 Q115.0 391.0 115.0 745.0 Q115.0 1099.0 303.5 1309.5 Q492.0 1520.0 807.0 1520.0 Z "/>
+<path id="glyph-60521f5b4f56f404-53" d="M909.0 700.0 Q974.0 678.0 1035.5 606.0 Q1097.0 534.0 1159.0 408.0 L1364.0 0.0 L1147.0 0.0 L956.0 383.0 Q882.0 533.0 812.5 582.0 Q743.0 631.0 623.0 631.0 L403.0 631.0 L403.0 0.0 L201.0 0.0 L201.0 1493.0 L657.0 1493.0 Q913.0 1493.0 1039.0 1386.0 Q1165.0 1279.0 1165.0 1063.0 Q1165.0 922.0 1099.5 829.0 Q1034.0 736.0 909.0 700.0 Z M403.0 1327.0 L403.0 797.0 L657.0 797.0 Q803.0 797.0 877.5 864.5 Q952.0 932.0 952.0 1063.0 Q952.0 1194.0 877.5 1260.5 Q803.0 1327.0 657.0 1327.0 L403.0 1327.0 Z "/>
+<path id="glyph-60521f5b4f56f404-57" d="M586.0 0.0 L16.0 1493.0 L227.0 1493.0 L700.0 236.0 L1174.0 1493.0 L1384.0 1493.0 L815.0 0.0 L586.0 0.0 Z "/>
+<path id="glyph-60521f5b4f56f404-68" d="M702.0 563.0 Q479.0 563.0 393.0 512.0 Q307.0 461.0 307.0 338.0 Q307.0 240.0 371.5 182.5 Q436.0 125.0 547.0 125.0 Q700.0 125.0 792.5 233.5 Q885.0 342.0 885.0 522.0 L885.0 563.0 L702.0 563.0 Z M1069.0 639.0 L1069.0 0.0 L885.0 0.0 L885.0 170.0 Q822.0 68.0 728.0 19.5 Q634.0 -29.0 498.0 -29.0 Q326.0 -29.0 224.5 67.5 Q123.0 164.0 123.0 326.0 Q123.0 515.0 249.5 611.0 Q376.0 707.0 627.0 707.0 L885.0 707.0 L885.0 725.0 Q885.0 852.0 801.5 921.5 Q718.0 991.0 567.0 991.0 Q471.0 991.0 380.0 968.0 Q289.0 945.0 205.0 899.0 L205.0 1069.0 Q306.0 1108.0 401.0 1127.5 Q496.0 1147.0 586.0 1147.0 Q829.0 1147.0 949.0 1021.0 Q1069.0 895.0 1069.0 639.0 Z "/>
+<path id="glyph-60521f5b4f56f404-69" d="M997.0 559.0 Q997.0 762.0 913.5 877.5 Q830.0 993.0 684.0 993.0 Q538.0 993.0 454.5 877.5 Q371.0 762.0 371.0 559.0 Q371.0 356.0 454.5 240.5 Q538.0 125.0 684.0 125.0 Q830.0 125.0 913.5 240.5 Q997.0 356.0 997.0 559.0 Z M371.0 950.0 Q429.0 1050.0 517.5 1098.5 Q606.0 1147.0 729.0 1147.0 Q933.0 1147.0 1060.5 985.0 Q1188.0 823.0 1188.0 559.0 Q1188.0 295.0 1060.5 133.0 Q933.0 -29.0 729.0 -29.0 Q606.0 -29.0 517.5 19.5 Q429.0 68.0 371.0 168.0 L371.0 0.0 L186.0 0.0 L186.0 1556.0 L371.0 1556.0 L371.0 950.0 Z "/>
+<path id="glyph-60521f5b4f56f404-70" d="M999.0 1077.0 L999.0 905.0 Q921.0 948.0 842.5 969.5 Q764.0 991.0 684.0 991.0 Q505.0 991.0 406.0 877.5 Q307.0 764.0 307.0 559.0 Q307.0 354.0 406.0 240.5 Q505.0 127.0 684.0 127.0 Q764.0 127.0 842.5 148.5 Q921.0 170.0 999.0 213.0 L999.0 43.0 Q922.0 7.0 839.5 -11.0 Q757.0 -29.0 664.0 -29.0 Q411.0 -29.0 262.0 130.0 Q113.0 289.0 113.0 559.0 Q113.0 833.0 263.5 990.0 Q414.0 1147.0 676.0 1147.0 Q761.0 1147.0 842.0 1129.5 Q923.0 1112.0 999.0 1077.0 Z "/>
+<path id="glyph-60521f5b4f56f404-71" d="M930.0 950.0 L930.0 1556.0 L1114.0 1556.0 L1114.0 0.0 L930.0 0.0 L930.0 168.0 Q872.0 68.0 783.5 19.5 Q695.0 -29.0 571.0 -29.0 Q368.0 -29.0 240.5 133.0 Q113.0 295.0 113.0 559.0 Q113.0 823.0 240.5 985.0 Q368.0 1147.0 571.0 1147.0 Q695.0 1147.0 783.5 1098.5 Q872.0 1050.0 930.0 950.0 Z M303.0 559.0 Q303.0 356.0 386.5 240.5 Q470.0 125.0 616.0 125.0 Q762.0 125.0 846.0 240.5 Q930.0 356.0 930.0 559.0 Q930.0 762.0 846.0 877.5 Q762.0 993.0 616.0 993.0 Q470.0 993.0 386.5 877.5 Q303.0 762.0 303.0 559.0 Z "/>
+<path id="glyph-60521f5b4f56f404-72" d="M1151.0 606.0 L1151.0 516.0 L305.0 516.0 Q317.0 326.0 419.5 226.5 Q522.0 127.0 705.0 127.0 Q811.0 127.0 910.5 153.0 Q1010.0 179.0 1108.0 231.0 L1108.0 57.0 Q1009.0 15.0 905.0 -7.0 Q801.0 -29.0 694.0 -29.0 Q426.0 -29.0 269.5 127.0 Q113.0 283.0 113.0 549.0 Q113.0 824.0 261.5 985.5 Q410.0 1147.0 662.0 1147.0 Q888.0 1147.0 1019.5 1001.5 Q1151.0 856.0 1151.0 606.0 Z M967.0 660.0 Q965.0 811.0 882.5 901.0 Q800.0 991.0 664.0 991.0 Q510.0 991.0 417.5 904.0 Q325.0 817.0 311.0 659.0 L967.0 660.0 Z "/>
+<path id="glyph-60521f5b4f56f404-76" d="M193.0 1120.0 L377.0 1120.0 L377.0 0.0 L193.0 0.0 L193.0 1120.0 Z M193.0 1556.0 L377.0 1556.0 L377.0 1323.0 L193.0 1323.0 L193.0 1556.0 Z "/>
+<path id="glyph-60521f5b4f56f404-78" d="M186.0 1556.0 L371.0 1556.0 L371.0 637.0 L920.0 1120.0 L1155.0 1120.0 L561.0 596.0 L1180.0 0.0 L940.0 0.0 L371.0 547.0 L371.0 0.0 L186.0 0.0 L186.0 1556.0 Z "/>
+<path id="glyph-60521f5b4f56f404-79" d="M193.0 1556.0 L377.0 1556.0 L377.0 0.0 L193.0 0.0 L193.0 1556.0 Z "/>
+<path id="glyph-60521f5b4f56f404-80" d="M1065.0 905.0 Q1134.0 1029.0 1230.0 1088.0 Q1326.0 1147.0 1456.0 1147.0 Q1631.0 1147.0 1726.0 1024.5 Q1821.0 902.0 1821.0 676.0 L1821.0 0.0 L1636.0 0.0 L1636.0 670.0 Q1636.0 831.0 1579.0 909.0 Q1522.0 987.0 1405.0 987.0 Q1262.0 987.0 1179.0 892.0 Q1096.0 797.0 1096.0 633.0 L1096.0 0.0 L911.0 0.0 L911.0 670.0 Q911.0 832.0 854.0 909.5 Q797.0 987.0 678.0 987.0 Q537.0 987.0 454.0 891.5 Q371.0 796.0 371.0 633.0 L371.0 0.0 L186.0 0.0 L186.0 1120.0 L371.0 1120.0 L371.0 946.0 Q434.0 1049.0 522.0 1098.0 Q610.0 1147.0 731.0 1147.0 Q853.0 1147.0 938.5 1085.0 Q1024.0 1023.0 1065.0 905.0 Z "/>
+<path id="glyph-60521f5b4f56f404-81" d="M1124.0 676.0 L1124.0 0.0 L940.0 0.0 L940.0 670.0 Q940.0 829.0 878.0 908.0 Q816.0 987.0 692.0 987.0 Q543.0 987.0 457.0 892.0 Q371.0 797.0 371.0 633.0 L371.0 0.0 L186.0 0.0 L186.0 1120.0 L371.0 1120.0 L371.0 946.0 Q437.0 1047.0 526.5 1097.0 Q616.0 1147.0 733.0 1147.0 Q926.0 1147.0 1025.0 1027.5 Q1124.0 908.0 1124.0 676.0 Z "/>
+<path id="glyph-60521f5b4f56f404-82" d="M627.0 991.0 Q479.0 991.0 393.0 875.5 Q307.0 760.0 307.0 559.0 Q307.0 358.0 392.5 242.5 Q478.0 127.0 627.0 127.0 Q774.0 127.0 860.0 243.0 Q946.0 359.0 946.0 559.0 Q946.0 758.0 860.0 874.5 Q774.0 991.0 627.0 991.0 Z M627.0 1147.0 Q867.0 1147.0 1004.0 991.0 Q1141.0 835.0 1141.0 559.0 Q1141.0 284.0 1004.0 127.5 Q867.0 -29.0 627.0 -29.0 Q386.0 -29.0 249.5 127.5 Q113.0 284.0 113.0 559.0 Q113.0 835.0 249.5 991.0 Q386.0 1147.0 627.0 1147.0 Z "/>
+<path id="glyph-60521f5b4f56f404-83" d="M371.0 168.0 L371.0 -426.0 L186.0 -426.0 L186.0 1120.0 L371.0 1120.0 L371.0 950.0 Q429.0 1050.0 517.5 1098.5 Q606.0 1147.0 729.0 1147.0 Q933.0 1147.0 1060.5 985.0 Q1188.0 823.0 1188.0 559.0 Q1188.0 295.0 1060.5 133.0 Q933.0 -29.0 729.0 -29.0 Q606.0 -29.0 517.5 19.5 Q429.0 68.0 371.0 168.0 Z M997.0 559.0 Q997.0 762.0 913.5 877.5 Q830.0 993.0 684.0 993.0 Q538.0 993.0 454.5 877.5 Q371.0 762.0 371.0 559.0 Q371.0 356.0 454.5 240.5 Q538.0 125.0 684.0 125.0 Q830.0 125.0 913.5 240.5 Q997.0 356.0 997.0 559.0 Z "/>
+<path id="glyph-60521f5b4f56f404-84" d="M303.0 559.0 Q303.0 356.0 386.5 240.5 Q470.0 125.0 616.0 125.0 Q762.0 125.0 846.0 240.5 Q930.0 356.0 930.0 559.0 Q930.0 762.0 846.0 877.5 Q762.0 993.0 616.0 993.0 Q470.0 993.0 386.5 877.5 Q303.0 762.0 303.0 559.0 Z M930.0 168.0 Q872.0 68.0 783.5 19.5 Q695.0 -29.0 571.0 -29.0 Q368.0 -29.0 240.5 133.0 Q113.0 295.0 113.0 559.0 Q113.0 823.0 240.5 985.0 Q368.0 1147.0 571.0 1147.0 Q695.0 1147.0 783.5 1098.5 Q872.0 1050.0 930.0 950.0 L930.0 1120.0 L1114.0 1120.0 L1114.0 -426.0 L930.0 -426.0 L930.0 168.0 Z "/>
+<path id="glyph-60521f5b4f56f404-85" d="M842.0 948.0 Q811.0 966.0 774.5 974.5 Q738.0 983.0 694.0 983.0 Q538.0 983.0 454.5 881.5 Q371.0 780.0 371.0 590.0 L371.0 0.0 L186.0 0.0 L186.0 1120.0 L371.0 1120.0 L371.0 946.0 Q429.0 1048.0 522.0 1097.5 Q615.0 1147.0 748.0 1147.0 Q767.0 1147.0 790.0 1144.5 Q813.0 1142.0 841.0 1137.0 L842.0 948.0 Z "/>
+<path id="glyph-60521f5b4f56f404-86" d="M907.0 1087.0 L907.0 913.0 Q829.0 953.0 745.0 973.0 Q661.0 993.0 571.0 993.0 Q434.0 993.0 365.5 951.0 Q297.0 909.0 297.0 825.0 Q297.0 761.0 346.0 724.5 Q395.0 688.0 543.0 655.0 L606.0 641.0 Q802.0 599.0 884.5 522.5 Q967.0 446.0 967.0 309.0 Q967.0 153.0 843.5 62.0 Q720.0 -29.0 504.0 -29.0 Q414.0 -29.0 316.5 -11.5 Q219.0 6.0 111.0 41.0 L111.0 231.0 Q213.0 178.0 312.0 151.5 Q411.0 125.0 508.0 125.0 Q638.0 125.0 708.0 169.5 Q778.0 214.0 778.0 295.0 Q778.0 370.0 727.5 410.0 Q677.0 450.0 506.0 487.0 L442.0 502.0 Q271.0 538.0 195.0 612.5 Q119.0 687.0 119.0 817.0 Q119.0 975.0 231.0 1061.0 Q343.0 1147.0 549.0 1147.0 Q651.0 1147.0 741.0 1132.0 Q831.0 1117.0 907.0 1087.0 Z "/>
+<path id="glyph-60521f5b4f56f404-87" d="M375.0 1438.0 L375.0 1120.0 L754.0 1120.0 L754.0 977.0 L375.0 977.0 L375.0 369.0 Q375.0 232.0 412.5 193.0 Q450.0 154.0 565.0 154.0 L754.0 154.0 L754.0 0.0 L565.0 0.0 Q352.0 0.0 271.0 79.5 Q190.0 159.0 190.0 369.0 L190.0 977.0 L55.0 977.0 L55.0 1120.0 L190.0 1120.0 L190.0 1438.0 L375.0 1438.0 Z "/>
+<path id="glyph-60521f5b4f56f404-88" d="M174.0 442.0 L174.0 1120.0 L358.0 1120.0 L358.0 449.0 Q358.0 290.0 420.0 210.5 Q482.0 131.0 606.0 131.0 Q755.0 131.0 841.5 226.0 Q928.0 321.0 928.0 485.0 L928.0 1120.0 L1112.0 1120.0 L1112.0 0.0 L928.0 0.0 L928.0 172.0 Q861.0 70.0 772.5 20.5 Q684.0 -29.0 567.0 -29.0 Q374.0 -29.0 274.0 91.0 Q174.0 211.0 174.0 442.0 Z M637.0 1147.0 L637.0 1147.0 Z "/>
+<path id="glyph-60521f5b4f56f404-90" d="M86.0 1120.0 L270.0 1120.0 L500.0 246.0 L729.0 1120.0 L946.0 1120.0 L1176.0 246.0 L1405.0 1120.0 L1589.0 1120.0 L1296.0 0.0 L1079.0 0.0 L838.0 918.0 L596.0 0.0 L379.0 0.0 L86.0 1120.0 Z "/>
+<path id="glyph-60521f5b4f56f404-92" d="M659.0 -104.0 Q581.0 -304.0 507.0 -365.0 Q433.0 -426.0 309.0 -426.0 L162.0 -426.0 L162.0 -272.0 L270.0 -272.0 Q346.0 -272.0 388.0 -236.0 Q430.0 -200.0 481.0 -66.0 L514.0 18.0 L61.0 1120.0 L256.0 1120.0 L606.0 244.0 L956.0 1120.0 L1151.0 1120.0 L659.0 -104.0 Z "/>
+<marker id="arrow-60521f5b4f56f404-0" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+<marker id="arrow-60521f5b4f56f404-1" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+<marker id="arrow-60521f5b4f56f404-2" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+<marker id="arrow-60521f5b4f56f404-3" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+<marker id="arrow-60521f5b4f56f404-4" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<g id="group-60521f5b4f56f404-0"><rect x="24.000" y="132.000" width="816.990" height="579.800" rx="10" fill="#eef2ff" stroke="#475569" stroke-dasharray="5 4"/>
+<g fill="#0f172a" aria-label="Order system"><title>Order system</title>
+<use href="#glyph-60521f5b4f56f404-50" transform="translate(385.071 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-85" transform="translate(396.090 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-71" transform="translate(401.600 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(410.487 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-85" transform="translate(419.100 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-3" transform="translate(424.856 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-86" transform="translate(429.306 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-92" transform="translate(436.600 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-86" transform="translate(444.885 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-87" transform="translate(452.179 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(457.668 153.847) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-80" transform="translate(466.282 153.847) scale(0.006836 -0.006836)"/></g>
+</g>
+<g id="group-60521f5b4f56f404-1"><rect x="56.000" y="300.800" width="402.377" height="141.500" rx="10" fill="#eef2ff" stroke="#475569" stroke-dasharray="5 4"/>
+<g fill="#0f172a" aria-label="Frontend"><title>Frontend</title>
+<use href="#glyph-60521f5b4f56f404-41" transform="translate(226.297 322.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-85" transform="translate(233.331 322.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-82" transform="translate(238.779 322.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-81" transform="translate(247.345 322.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-87" transform="translate(256.218 322.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(261.707 322.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-81" transform="translate(270.320 322.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-71" transform="translate(279.193 322.647) scale(0.006836 -0.006836)"/></g>
+</g>
+<g id="group-60521f5b4f56f404-2"><rect x="432.377" y="498.300" width="376.613" height="181.500" rx="10" fill="#eef2ff" stroke="#475569" stroke-dasharray="5 4"/>
+<g fill="#0f172a" aria-label="Backend"><title>Backend</title>
+<use href="#glyph-60521f5b4f56f404-37" transform="translate(590.752 520.147) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-68" transform="translate(600.357 520.147) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-70" transform="translate(608.936 520.147) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-78" transform="translate(616.633 520.147) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(624.242 520.147) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-81" transform="translate(632.855 520.147) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-71" transform="translate(641.728 520.147) scale(0.006836 -0.006836)"/></g>
+</g>
+<g id="group-60521f5b4f56f404-3"><rect x="782.990" y="735.800" width="190.284" height="141.500" rx="10" fill="#eef2ff" stroke="#475569" stroke-dasharray="5 4"/>
+<g fill="#0f172a" aria-label="Client"><title>Client</title>
+<use href="#glyph-60521f5b4f56f404-38" transform="translate(857.867 757.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-79" transform="translate(867.642 757.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-76" transform="translate(871.532 757.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(875.422 757.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-81" transform="translate(884.035 757.647) scale(0.006836 -0.006836)"/><use href="#glyph-60521f5b4f56f404-87" transform="translate(892.908 757.647) scale(0.006836 -0.006836)"/></g>
+</g>
+<path id="edge-60521f5b4f56f404-0" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-60521f5b4f56f404-0)" d="M 226.430 371.550 L 261.430 371.550 L 296.430 371.550 "/>
+<path id="edge-60521f5b4f56f404-1" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-60521f5b4f56f404-1)" d="M 585.449 589.050 L 620.449 589.050 L 655.449 589.050 "/>
+<path id="edge-60521f5b4f56f404-2" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-60521f5b4f56f404-2)" d="M 410.377 371.550 L 445.377 371.550 L 445.377 589.050 L 480.377 589.050 "/>
+<path id="edge-60521f5b4f56f404-3" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-60521f5b4f56f404-3)" d="M 830.990 806.550 L 795.990 806.550 L 795.990 74.000 L 708.220 74.000 L 620.449 74.000 L 532.913 74.000 L 445.377 74.000 L 353.404 74.000 L 261.430 74.000 L 261.430 298.400 L 214.297 298.400 L 214.297 337.200 L 261.430 337.200 L 261.430 371.550 L 226.430 371.550 "/>
+<path id="edge-60521f5b4f56f404-4" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-60521f5b4f56f404-4)" d="M 760.990 589.050 L 795.990 589.050 L 795.990 806.550 L 830.990 806.550 "/>
+<g id="node-60521f5b4f56f404-0" data-node-id="A" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="104.000" y="348.800" width="122.430" height="45.500" rx="22.750"/>
+<g stroke="none"><g fill="#0f172a" aria-label="Request"><title>Request</title>
+<use href="#glyph-60521f5b4f56f404-53" transform="translate(134.750 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(144.499 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-84" transform="translate(153.727 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-88" transform="translate(163.249 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(172.755 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-86" transform="translate(181.984 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-87" transform="translate(189.799 376.743) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<g id="node-60521f5b4f56f404-1" data-node-id="B" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="296.430" y="348.800" width="113.947" height="45.500"/><path fill="none" d="M 306.430 348.800 V 394.300 M 400.377 348.800 V 394.300"/>
+<g stroke="none"><g fill="#0f172a" aria-label="Validate"><title>Validate</title>
+<use href="#glyph-60521f5b4f56f404-57" transform="translate(323.180 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-68" transform="translate(332.277 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-79" transform="translate(341.469 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-76" transform="translate(345.636 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-71" transform="translate(349.804 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-68" transform="translate(359.325 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-87" transform="translate(368.517 376.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(374.398 376.743) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<g id="node-60521f5b4f56f404-2" data-node-id="C" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<path d="M 480.377 558.300 A 52.536 12 0 0 1 585.449 558.300 V 619.800 A 52.536 12 0 0 1 480.377 619.800 Z"/><path fill="none" d="M 480.377 558.300 A 52.536 12 0 0 0 585.449 558.300"/>
+<g stroke="none"><g fill="#0f172a" aria-label="Database"><title>Database</title>
+<use href="#glyph-60521f5b4f56f404-39" transform="translate(497.127 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-68" transform="translate(508.677 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-87" transform="translate(517.869 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-68" transform="translate(523.750 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-69" transform="translate(532.942 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-68" transform="translate(542.464 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-86" transform="translate(551.656 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(559.471 594.243) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<g id="node-60521f5b4f56f404-3" data-node-id="D" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="655.449" y="566.300" width="105.541" height="45.500" rx="0"/>
+<g stroke="none"><g fill="#0f172a" aria-label="Response"><title>Response</title>
+<use href="#glyph-60521f5b4f56f404-53" transform="translate(672.199 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(681.948 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-86" transform="translate(691.176 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-83" transform="translate(698.991 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-82" transform="translate(708.513 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-81" transform="translate(717.690 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-86" transform="translate(727.197 594.243) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(735.012 594.243) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<g id="node-60521f5b4f56f404-4" data-node-id="E" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="830.990" y="783.800" width="94.284" height="45.500" rx="0"/>
+<g stroke="none"><g fill="#0f172a" aria-label="Browser"><title>Browser</title>
+<use href="#glyph-60521f5b4f56f404-37" transform="translate(847.740 811.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-85" transform="translate(858.031 811.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-82" transform="translate(863.868 811.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-90" transform="translate(873.045 811.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-86" transform="translate(885.313 811.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-72" transform="translate(893.128 811.743) scale(0.007324 -0.007324)"/><use href="#glyph-60521f5b4f56f404-85" transform="translate(902.357 811.743) scale(0.007324 -0.007324)"/></g>
+</g></g>
+</svg>

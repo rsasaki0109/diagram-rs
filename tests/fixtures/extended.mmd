@@ -1,0 +1,9 @@
+flowchart LR
+    A([Start]) --> B[[Validate input]]
+    B <-->|request / reply| C[(Durable store)]
+    C -..->|retry| D(Diagnostics)
+    D -.-> B
+    B ===>|accepted| E((End))
+    E ---- F[Archive]
+    classDef accent fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    class A,C accent

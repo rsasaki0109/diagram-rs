@@ -1,0 +1,17 @@
+%%{init: {"flowchart":{"nodeSpacing":48,"rankSpacing":85}}}%%
+flowchart LR
+    Source(Mermaid source) --> Parse[Native Rust parser]
+    Parse --> Valid{Valid syntax?}
+    Valid -->|yes| Layout[Hierarchical layout]
+    Valid -->|no| Error(Diagnostics)
+    Layout --> SVG((SVG))
+    SVG --> CLI[Native CLI]
+    SVG --> WASM[Browser / WASM]
+    classDef input fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
+    classDef process fill:#eef2ff,stroke:#6366f1,color:#312e81
+    classDef success fill:#dcfce7,stroke:#16a34a,color:#14532d
+    classDef error fill:#fff1f2,stroke:#e11d48,color:#881337
+    class Source input
+    class Parse,Layout,Valid process
+    class SVG,CLI,WASM success
+    class Error error

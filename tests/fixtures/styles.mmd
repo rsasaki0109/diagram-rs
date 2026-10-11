@@ -1,0 +1,7 @@
+%%{init: {"theme":"dark","flowchart":{"nodeSpacing":48,"rankSpacing":90}}}%%
+flowchart RL
+    A["Long label<br/>Second line"]:::warm ==> B((Output))
+    B --- C{Done?}
+    classDef warm fill:#fb923c,stroke:#c2410c,color:#431407,font-size:17px
+    style C fill:#334155,stroke:#818cf8
+    linkStyle 0 stroke:#fb923c,stroke-width:3px,color:#fb923c

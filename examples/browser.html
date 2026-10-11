@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>diagram-rs WASM example</title>
+<style>body { font-family: system-ui; margin: 2rem; background: #f8fafc } textarea { display: block; width: 40rem; height: 8rem; max-width: 100% } #diagram svg { max-width: 100%; height: auto } #error { color: #be123c }</style>
+<h1>diagram-rs</h1><p>Native flowchart rendering in WebAssembly. Enter supported Mermaid syntax.</p>
+<textarea id="source" aria-label="Mermaid source">flowchart LR
+    A[Input] --> B{Valid?}
+    B -->|yes| C((SVG))
+    B -->|no| D(Diagnostic)</textarea>
+<button id="render">Render</button><pre id="error" role="alert"></pre><div id="diagram"></div>
+<script type="module">
+import { render } from '../crates/diagram-wasm/pkg/index.js';
+const draw = () => {
+  try { document.querySelector('#diagram').innerHTML = render(document.querySelector('#source').value); document.querySelector('#error').textContent = ''; }
+  catch (error) { document.querySelector('#error').textContent = String(error); }
+};
+document.querySelector('#render').addEventListener('click', draw);
+draw();
+</script></html>

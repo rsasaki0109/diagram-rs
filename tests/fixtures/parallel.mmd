@@ -1,0 +1,6 @@
+flowchart TB
+    A([Client]) -->|request| B[[Server]]
+    A -.->|retry| B
+    B -->|reply| A
+    B --> B
+    B -.-> B

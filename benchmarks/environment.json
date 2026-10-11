@@ -1,0 +1,44 @@
+{
+  "date_utc": "2026-10-11T03:58:18.486526+00:00",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "available_cpus": 5,
+  "rustc": "rustc 1.90.0 (1159e78c4 2025-09-14)",
+  "memory": [
+    {
+      "nodes": 8,
+      "peak_rss_kib": 3344,
+      "source_sha256": "b27570f72c1e360eaab5042d08e10c446d51da84def60c52b43bfe7d4756d31f"
+    },
+    {
+      "nodes": 64,
+      "peak_rss_kib": 3576,
+      "source_sha256": "36b629ef5db9d66420aea7c9892871063b6c7fb0bbbede92e90a623ef921b31d"
+    },
+    {
+      "nodes": 256,
+      "peak_rss_kib": 4856,
+      "source_sha256": "1e60f4eeb258f4b1b5d24f2d9f5a69c2b316fffc097190a400f9f03b1ca8823f"
+    }
+  ],
+  "sizes": {
+    "native": {
+      "bytes": 12003568,
+      "gzip_bytes": 6971140
+    },
+    "wasm": {
+      "bytes": 11474353,
+      "gzip_bytes": 6652897
+    }
+  },
+  "wasm_package_bytes": 11673818,
+  "cargo_lock_sha256": "031f77585c42c6c41805a5a0146d52b128a2edebdb2a6e332f0f7aeb3d36a9e8",
+  "additional_builds": {
+    "latin_only_native": {
+      "bytes": 2405072,
+      "gzip_bytes": 1114580,
+      "features": "--no-default-features",
+      "verification": "branch SVG parity, Japanese rejected by default, custom Noto font accepted"
+    }
+  }
+}

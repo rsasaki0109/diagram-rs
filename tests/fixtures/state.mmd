@@ -1,0 +1,11 @@
+stateDiagram-v2
+    direction LR
+    state "Waiting for payment" as Pending
+    state Decision <<choice>>
+    [*] --> Pending
+    Pending : Order received
+    Pending --> Decision : pay
+    Decision --> Confirmed : accepted
+    Decision --> Rejected : declined
+    Confirmed --> [*] : shipped
+    Rejected --> Pending : retry

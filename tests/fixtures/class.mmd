@@ -1,0 +1,22 @@
+classDiagram
+    direction LR
+    class Payment {
+        <<interface>>
+        +pay(amount) bool
+    }
+    class CardPayment {
+        -String token
+        +pay(amount) bool
+    }
+    class Order {
+        +int id
+        +decimal total
+        +checkout() bool
+    }
+    class Item {
+        +String name
+        +decimal price
+    }
+    Payment <|.. CardPayment
+    Order --> Payment : uses
+    Order "1" *-- "1..*" Item : contains

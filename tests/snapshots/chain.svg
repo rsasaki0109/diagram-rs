@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432.500" height="219.000" viewBox="0 0 432.500 219.000" role="img" aria-label="Flowchart">
+<title>Flowchart rendered by diagram-rs</title>
+<metadata>Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: DejaVu fonts
+Upstream-Author: Stepan Roh &lt;src@users.sourceforge.net&gt; (original author),
+                  see /usr/share/doc/fonts-dejavu-core/AUTHORS for full list
+Source: https://dejavu-fonts.github.io/
+
+Files: *
+Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. 
+ Bitstream Vera is a trademark of Bitstream, Inc.
+ DejaVu changes are in public domain.
+License: bitstream-vera
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of the fonts accompanying this license (&quot;Fonts&quot;) and associated
+ documentation files (the &quot;Font Software&quot;), to reproduce and distribute the
+ Font Software, including without limitation the rights to use, copy, merge,
+ publish, distribute, and/or sell copies of the Font Software, and to permit
+ persons to whom the Font Software is furnished to do so, subject to the
+ following conditions:
+ .
+ The above copyright and trademark notices and this permission notice shall
+ be included in all copies of one or more of the Font Software typefaces.
+ .
+ The Font Software may be modified, altered, or added to, and in particular
+ the designs of glyphs or characters in the Fonts may be modified and
+ additional glyphs or characters may be added to the Fonts, only if the fonts
+ are renamed to names not containing either the words &quot;Bitstream&quot; or the word
+ &quot;Vera&quot;.
+ .
+ This License becomes null and void to the extent applicable to Fonts or Font
+ Software that has been modified and is distributed under the &quot;Bitstream
+ Vera&quot; names.
+ .
+ The Font Software may be sold as part of a larger software package but no
+ copy of one or more of the Font Software typefaces may be sold by itself.
+ .
+ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT,
+ TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME
+ FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING
+ ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+ THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE
+ FONT SOFTWARE.
+ .
+ Except as contained in this notice, the names of Gnome, the Gnome
+ Foundation, and Bitstream Inc., shall not be used in advertising or
+ otherwise to promote the sale, use or other dealings in this Font Software
+ without prior written authorization from the Gnome Foundation or Bitstream
+ Inc., respectively. For further information, contact: fonts at gnome dot
+ org.
+
+</metadata>
+<defs>
+<path id="glyph-80fcf0334999a844-36" d="M700.0 1294.0 L426.0 551.0 L975.0 551.0 L700.0 1294.0 Z M586.0 1493.0 L815.0 1493.0 L1384.0 0.0 L1174.0 0.0 L1038.0 383.0 L365.0 383.0 L229.0 0.0 L16.0 0.0 L586.0 1493.0 Z "/>
+<path id="glyph-80fcf0334999a844-37" d="M403.0 713.0 L403.0 166.0 L727.0 166.0 Q890.0 166.0 968.5 233.5 Q1047.0 301.0 1047.0 440.0 Q1047.0 580.0 968.5 646.5 Q890.0 713.0 727.0 713.0 L403.0 713.0 Z M403.0 1327.0 L403.0 877.0 L702.0 877.0 Q850.0 877.0 922.5 932.5 Q995.0 988.0 995.0 1102.0 Q995.0 1215.0 922.5 1271.0 Q850.0 1327.0 702.0 1327.0 L403.0 1327.0 Z M201.0 1493.0 L717.0 1493.0 Q948.0 1493.0 1073.0 1397.0 Q1198.0 1301.0 1198.0 1124.0 Q1198.0 987.0 1134.0 906.0 Q1070.0 825.0 946.0 805.0 Q1095.0 773.0 1177.5 671.5 Q1260.0 570.0 1260.0 418.0 Q1260.0 218.0 1124.0 109.0 Q988.0 0.0 737.0 0.0 L201.0 0.0 L201.0 1493.0 Z "/>
+<path id="glyph-80fcf0334999a844-38" d="M1319.0 1378.0 L1319.0 1165.0 Q1217.0 1260.0 1101.5 1307.0 Q986.0 1354.0 856.0 1354.0 Q600.0 1354.0 464.0 1197.5 Q328.0 1041.0 328.0 745.0 Q328.0 450.0 464.0 293.5 Q600.0 137.0 856.0 137.0 Q986.0 137.0 1101.5 184.0 Q1217.0 231.0 1319.0 326.0 L1319.0 115.0 Q1213.0 43.0 1094.5 7.0 Q976.0 -29.0 844.0 -29.0 Q505.0 -29.0 310.0 178.5 Q115.0 386.0 115.0 745.0 Q115.0 1105.0 310.0 1312.5 Q505.0 1520.0 844.0 1520.0 Q978.0 1520.0 1096.5 1484.5 Q1215.0 1449.0 1319.0 1378.0 Z "/>
+<path id="glyph-80fcf0334999a844-39" d="M403.0 1327.0 L403.0 166.0 L647.0 166.0 Q956.0 166.0 1099.5 306.0 Q1243.0 446.0 1243.0 748.0 Q1243.0 1048.0 1099.5 1187.5 Q956.0 1327.0 647.0 1327.0 L403.0 1327.0 Z M201.0 1493.0 L616.0 1493.0 Q1050.0 1493.0 1253.0 1312.5 Q1456.0 1132.0 1456.0 748.0 Q1456.0 362.0 1252.0 181.0 Q1048.0 0.0 616.0 0.0 L201.0 0.0 L201.0 1493.0 Z "/>
+<path id="glyph-80fcf0334999a844-40" d="M201.0 1493.0 L1145.0 1493.0 L1145.0 1323.0 L403.0 1323.0 L403.0 881.0 L1114.0 881.0 L1114.0 711.0 L403.0 711.0 L403.0 170.0 L1163.0 170.0 L1163.0 0.0 L201.0 0.0 L201.0 1493.0 Z "/>
+<path id="glyph-80fcf0334999a844-71" d="M930.0 950.0 L930.0 1556.0 L1114.0 1556.0 L1114.0 0.0 L930.0 0.0 L930.0 168.0 Q872.0 68.0 783.5 19.5 Q695.0 -29.0 571.0 -29.0 Q368.0 -29.0 240.5 133.0 Q113.0 295.0 113.0 559.0 Q113.0 823.0 240.5 985.0 Q368.0 1147.0 571.0 1147.0 Q695.0 1147.0 783.5 1098.5 Q872.0 1050.0 930.0 950.0 Z M303.0 559.0 Q303.0 356.0 386.5 240.5 Q470.0 125.0 616.0 125.0 Q762.0 125.0 846.0 240.5 Q930.0 356.0 930.0 559.0 Q930.0 762.0 846.0 877.5 Q762.0 993.0 616.0 993.0 Q470.0 993.0 386.5 877.5 Q303.0 762.0 303.0 559.0 Z "/>
+<path id="glyph-80fcf0334999a844-72" d="M1151.0 606.0 L1151.0 516.0 L305.0 516.0 Q317.0 326.0 419.5 226.5 Q522.0 127.0 705.0 127.0 Q811.0 127.0 910.5 153.0 Q1010.0 179.0 1108.0 231.0 L1108.0 57.0 Q1009.0 15.0 905.0 -7.0 Q801.0 -29.0 694.0 -29.0 Q426.0 -29.0 269.5 127.0 Q113.0 283.0 113.0 549.0 Q113.0 824.0 261.5 985.5 Q410.0 1147.0 662.0 1147.0 Q888.0 1147.0 1019.5 1001.5 Q1151.0 856.0 1151.0 606.0 Z M967.0 660.0 Q965.0 811.0 882.5 901.0 Q800.0 991.0 664.0 991.0 Q510.0 991.0 417.5 904.0 Q325.0 817.0 311.0 659.0 L967.0 660.0 Z "/>
+<path id="glyph-80fcf0334999a844-81" d="M1124.0 676.0 L1124.0 0.0 L940.0 0.0 L940.0 670.0 Q940.0 829.0 878.0 908.0 Q816.0 987.0 692.0 987.0 Q543.0 987.0 457.0 892.0 Q371.0 797.0 371.0 633.0 L371.0 0.0 L186.0 0.0 L186.0 1120.0 L371.0 1120.0 L371.0 946.0 Q437.0 1047.0 526.5 1097.0 Q616.0 1147.0 733.0 1147.0 Q926.0 1147.0 1025.0 1027.5 Q1124.0 908.0 1124.0 676.0 Z "/>
+<path id="glyph-80fcf0334999a844-82" d="M627.0 991.0 Q479.0 991.0 393.0 875.5 Q307.0 760.0 307.0 559.0 Q307.0 358.0 392.5 242.5 Q478.0 127.0 627.0 127.0 Q774.0 127.0 860.0 243.0 Q946.0 359.0 946.0 559.0 Q946.0 758.0 860.0 874.5 Q774.0 991.0 627.0 991.0 Z M627.0 1147.0 Q867.0 1147.0 1004.0 991.0 Q1141.0 835.0 1141.0 559.0 Q1141.0 284.0 1004.0 127.5 Q867.0 -29.0 627.0 -29.0 Q386.0 -29.0 249.5 127.5 Q113.0 284.0 113.0 559.0 Q113.0 835.0 249.5 991.0 Q386.0 1147.0 627.0 1147.0 Z "/>
+<marker id="arrow-80fcf0334999a844-0" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+<marker id="arrow-80fcf0334999a844-1" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+<marker id="arrow-80fcf0334999a844-2" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+<marker id="arrow-80fcf0334999a844-3" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+<marker id="arrow-80fcf0334999a844-4" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<path id="edge-80fcf0334999a844-0" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-80fcf0334999a844-0)" d="M 145.500 86.750 L 180.500 86.750 L 215.500 86.750 "/>
+<path id="edge-80fcf0334999a844-1" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-80fcf0334999a844-1)" d="M 145.500 86.750 L 180.500 86.750 L 180.500 172.250 L 215.500 172.250 "/>
+<path id="edge-80fcf0334999a844-2" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-80fcf0334999a844-2)" d="M 145.500 172.250 L 180.500 172.250 L 180.500 86.750 L 215.500 86.750 "/>
+<path id="edge-80fcf0334999a844-3" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-80fcf0334999a844-3)" d="M 145.500 172.250 L 180.500 172.250 L 215.500 172.250 "/>
+<path id="edge-80fcf0334999a844-4" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" marker-end="url(#arrow-80fcf0334999a844-4)" d="M 277.000 86.750 L 312.000 86.750 L 312.000 129.500 L 347.000 129.500 "/>
+<path id="edge-80fcf0334999a844-5" fill="none" stroke="#475569" stroke-width="1.500" stroke-linejoin="round" stroke-dasharray="4 4" d="M 277.000 172.250 L 312.000 172.250 L 312.000 129.500 L 347.000 129.500 "/>
+<g id="node-80fcf0334999a844-0" data-node-id="A" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="84.000" y="64.000" width="61.500" height="45.500" rx="0"/>
+<g stroke="none"><g fill="#0f172a" aria-label="A"><title>A</title>
+<use href="#glyph-80fcf0334999a844-36" transform="translate(109.619 91.943) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<g id="node-80fcf0334999a844-1" data-node-id="B" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="84.000" y="149.500" width="61.500" height="45.500" rx="0"/>
+<g stroke="none"><g fill="#0f172a" aria-label="B"><title>B</title>
+<use href="#glyph-80fcf0334999a844-37" transform="translate(109.605 177.443) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<g id="node-80fcf0334999a844-2" data-node-id="C" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="215.500" y="64.000" width="61.500" height="45.500" rx="0"/>
+<g stroke="none"><g fill="#0f172a" aria-label="C"><title>C</title>
+<use href="#glyph-80fcf0334999a844-38" transform="translate(241.013 91.943) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<g id="node-80fcf0334999a844-3" data-node-id="D" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="215.500" y="149.500" width="61.500" height="45.500" rx="0"/>
+<g stroke="none"><g fill="#0f172a" aria-label="D"><title>D</title>
+<use href="#glyph-80fcf0334999a844-39" transform="translate(240.475 177.443) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<g id="node-80fcf0334999a844-4" data-node-id="E" fill="#ffffff" stroke="#475569" stroke-width="1.500">
+<rect x="347.000" y="106.750" width="61.500" height="45.500" rx="0"/>
+<g stroke="none"><g fill="#0f172a" aria-label="E"><title>E</title>
+<use href="#glyph-80fcf0334999a844-40" transform="translate(373.011 134.693) scale(0.007324 -0.007324)"/></g>
+</g></g>
+<rect x="290.779" y="118.700" width="42.443" height="21.600" rx="4" fill="#f8fafc"/>
+<g fill="#0f172a" aria-label="done"><title>done</title>
+<use href="#glyph-80fcf0334999a844-71" transform="translate(295.779 134.000) scale(0.006348 -0.006348)"/><use href="#glyph-80fcf0334999a844-82" transform="translate(304.031 134.000) scale(0.006348 -0.006348)"/><use href="#glyph-80fcf0334999a844-81" transform="translate(311.984 134.000) scale(0.006348 -0.006348)"/><use href="#glyph-80fcf0334999a844-72" transform="translate(320.223 134.000) scale(0.006348 -0.006348)"/></g>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "name": "diagram-rs",
+  "version": "0.1.0",
+  "description": "Native Rust flowchart, sequence, class, state, ER and Gantt SVG rendering via WebAssembly",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.wasm",
+    "LICENSE",
+    "FONT-LICENSE.txt",
+    "NOTO-FONT-LICENSE.txt",
+    "README.md",
+    "THIRD_PARTY_LICENSES.txt"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/rsasaki0109/diagram-rs"
+}

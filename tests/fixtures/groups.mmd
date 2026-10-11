@@ -1,0 +1,9 @@
+flowchart TB
+    subgraph client [Client]
+        A[Request] --> B[Validate]
+    end
+    subgraph server [Server]
+        C[Process] --> D[Reply]
+    end
+    B -->|RPC| C
+    D --> A

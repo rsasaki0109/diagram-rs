@@ -1,0 +1,15 @@
+flowchart LR
+    subgraph system [Order system]
+        subgraph frontend [Frontend]
+            A([Request]) --> B[[Validate]]
+        end
+        subgraph backend [Backend]
+            C[(Database)] --> D[Response]
+        end
+        B --> C
+    end
+    subgraph outside [Client]
+        E[Browser]
+    end
+    E --> A
+    D --> E
